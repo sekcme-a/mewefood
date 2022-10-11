@@ -1,6 +1,6 @@
 import { firestore as db } from "firebase/firebase";
 import { useEffect, useState } from "react";
-import styles from "styles/home.module.css"
+import styles from "styles/homes.module.css"
 import CardComponent from "src/components/Card"
 import Grid from '@mui/material/Grid';
 import Card from "@mui/material/Card"
