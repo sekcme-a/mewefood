@@ -125,7 +125,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {bunsikWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
@@ -151,7 +151,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {tangWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
@@ -176,7 +176,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {dongasWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
@@ -201,7 +201,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {pigWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
@@ -226,7 +226,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {ramenWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
@@ -251,7 +251,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {malaWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
@@ -276,7 +276,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {chineseWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
@@ -300,7 +300,7 @@ const Admin = () => {
         <Grid container spacing={2}>
           {hansikWaiting.map((item, index) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={6} key={index}>
                 <Card style={{padding:"30px 6px"}} onClick={()=>onMenuClick(item.num)}>
                   <h1 style={{ fontSize: "19px", fontWeight: "bold", marginBottom:"10px" }} >
                     {item.num}
