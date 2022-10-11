@@ -35,9 +35,9 @@ const Customer = () => {
         const value = doc.data().value
         setNewNum([...newNum, value])
         setTimeout(() => {
-          const result = newNum.filter(num => num!==value)
+          const result = [...newNum, value].filter(num => num!==value)
           setNewNum([...result])
-        },7000)
+        },3000)
     });
 
     db.collection("menu").doc("분식")
